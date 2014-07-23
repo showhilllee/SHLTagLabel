@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>98CED413-B5B9-40FD-AC02-D10CBEAAC7F5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SHLTagLabelDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C0AA70E7-E8D7-4021-971F-8E20E6E45C1A</key>
+		<string>https://github.com/showhilllee/SHLTagLabel.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SHLTagLabelDemo/SHLTagLabelDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C0AA70E7-E8D7-4021-971F-8E20E6E45C1A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/showhilllee/SHLTagLabel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C0AA70E7-E8D7-4021-971F-8E20E6E45C1A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C0AA70E7-E8D7-4021-971F-8E20E6E45C1A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SHLTagLabel</string>
+		</dict>
+	</array>
+</dict>
+</plist>

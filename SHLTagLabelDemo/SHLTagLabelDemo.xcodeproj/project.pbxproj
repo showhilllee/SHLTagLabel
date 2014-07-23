@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A887000A197F92DA00C7FCCB /* SHLTagLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8870009197F92DA00C7FCCB /* SHLTagLabel.m */; };
+		A887FFD0197F929700C7FCCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A887FFCF197F929700C7FCCB /* Foundation.framework */; };
+		A887FFD2197F929700C7FCCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A887FFD1197F929700C7FCCB /* CoreGraphics.framework */; };
+		A887FFD4197F929700C7FCCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A887FFD3197F929700C7FCCB /* UIKit.framework */; };
+		A887FFDA197F929700C7FCCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A887FFD8197F929700C7FCCB /* InfoPlist.strings */; };
+		A887FFDC197F929700C7FCCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FFDB197F929700C7FCCB /* main.m */; };
+		A887FFE0197F929700C7FCCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FFDF197F929700C7FCCB /* AppDelegate.m */; };
+		A887FFE3197F929700C7FCCB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A887FFE1197F929700C7FCCB /* Main_iPhone.storyboard */; };
+		A887FFE6197F929700C7FCCB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A887FFE4197F929700C7FCCB /* Main_iPad.storyboard */; };
+		A887FFE9197F929700C7FCCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FFE8197F929700C7FCCB /* ViewController.m */; };
+		A887FFEB197F929700C7FCCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A887FFEA197F929700C7FCCB /* Images.xcassets */; };
+		A887FFF2197F929700C7FCCB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A887FFF1197F929700C7FCCB /* XCTest.framework */; };
+		A887FFF3197F929700C7FCCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A887FFCF197F929700C7FCCB /* Foundation.framework */; };
+		A887FFF4197F929700C7FCCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A887FFD3197F929700C7FCCB /* UIKit.framework */; };
+		A887FFFC197F929700C7FCCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A887FFFA197F929700C7FCCB /* InfoPlist.strings */; };
+		A887FFFE197F929700C7FCCB /* SHLTagLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A887FFFD197F929700C7FCCB /* SHLTagLabelDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A887FFF5197F929700C7FCCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A887FFC4197F929700C7FCCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A887FFCB197F929700C7FCCB;
+			remoteInfo = SHLTagLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8870008197F92DA00C7FCCB /* SHLTagLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHLTagLabel.h; path = ../../../SHLTagLabel/SHLTagLabel.h; sourceTree = "<group>"; };
+		A8870009197F92DA00C7FCCB /* SHLTagLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHLTagLabel.m; path = ../../../SHLTagLabel/SHLTagLabel.m; sourceTree = "<group>"; };
+		A887FFCC197F929700C7FCCB /* SHLTagLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHLTagLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A887FFCF197F929700C7FCCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A887FFD1197F929700C7FCCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A887FFD3197F929700C7FCCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A887FFD7197F929700C7FCCB /* SHLTagLabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHLTagLabelDemo-Info.plist"; sourceTree = "<group>"; };
+		A887FFD9197F929700C7FCCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A887FFDB197F929700C7FCCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A887FFDD197F929700C7FCCB /* SHLTagLabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHLTagLabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A887FFDE197F929700C7FCCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A887FFDF197F929700C7FCCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A887FFE2197F929700C7FCCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A887FFE5197F929700C7FCCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A887FFE7197F929700C7FCCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A887FFE8197F929700C7FCCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A887FFEA197F929700C7FCCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A887FFF0197F929700C7FCCB /* SHLTagLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHLTagLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A887FFF1197F929700C7FCCB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A887FFF9197F929700C7FCCB /* SHLTagLabelDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHLTagLabelDemoTests-Info.plist"; sourceTree = "<group>"; };
+		A887FFFB197F929700C7FCCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A887FFFD197F929700C7FCCB /* SHLTagLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLTagLabelDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A887FFC9197F929700C7FCCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A887FFD2197F929700C7FCCB /* CoreGraphics.framework in Frameworks */,
+				A887FFD4197F929700C7FCCB /* UIKit.framework in Frameworks */,
+				A887FFD0197F929700C7FCCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A887FFED197F929700C7FCCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A887FFF2197F929700C7FCCB /* XCTest.framework in Frameworks */,
+				A887FFF4197F929700C7FCCB /* UIKit.framework in Frameworks */,
+				A887FFF3197F929700C7FCCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8870007197F92B300C7FCCB /* SHLTagLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A8870008197F92DA00C7FCCB /* SHLTagLabel.h */,
+				A8870009197F92DA00C7FCCB /* SHLTagLabel.m */,
+			);
+			path = SHLTagLabel;
+			sourceTree = "<group>";
+		};
+		A887FFC3197F929700C7FCCB = {
+			isa = PBXGroup;
+			children = (
+				A887FFD5197F929700C7FCCB /* SHLTagLabelDemo */,
+				A887FFF7197F929700C7FCCB /* SHLTagLabelDemoTests */,
+				A887FFCE197F929700C7FCCB /* Frameworks */,
+				A887FFCD197F929700C7FCCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A887FFCD197F929700C7FCCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A887FFCC197F929700C7FCCB /* SHLTagLabelDemo.app */,
+				A887FFF0197F929700C7FCCB /* SHLTagLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A887FFCE197F929700C7FCCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A887FFCF197F929700C7FCCB /* Foundation.framework */,
+				A887FFD1197F929700C7FCCB /* CoreGraphics.framework */,
+				A887FFD3197F929700C7FCCB /* UIKit.framework */,
+				A887FFF1197F929700C7FCCB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A887FFD5197F929700C7FCCB /* SHLTagLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A8870007197F92B300C7FCCB /* SHLTagLabel */,
+				A887FFDE197F929700C7FCCB /* AppDelegate.h */,
+				A887FFDF197F929700C7FCCB /* AppDelegate.m */,
+				A887FFE1197F929700C7FCCB /* Main_iPhone.storyboard */,
+				A887FFE4197F929700C7FCCB /* Main_iPad.storyboard */,
+				A887FFE7197F929700C7FCCB /* ViewController.h */,
+				A887FFE8197F929700C7FCCB /* ViewController.m */,
+				A887FFEA197F929700C7FCCB /* Images.xcassets */,
+				A887FFD6197F929700C7FCCB /* Supporting Files */,
+			);
+			path = SHLTagLabelDemo;
+			sourceTree = "<group>";
+		};
+		A887FFD6197F929700C7FCCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A887FFD7197F929700C7FCCB /* SHLTagLabelDemo-Info.plist */,
+				A887FFD8197F929700C7FCCB /* InfoPlist.strings */,
+				A887FFDB197F929700C7FCCB /* main.m */,
+				A887FFDD197F929700C7FCCB /* SHLTagLabelDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A887FFF7197F929700C7FCCB /* SHLTagLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A887FFFD197F929700C7FCCB /* SHLTagLabelDemoTests.m */,
+				A887FFF8197F929700C7FCCB /* Supporting Files */,
+			);
+			path = SHLTagLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		A887FFF8197F929700C7FCCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A887FFF9197F929700C7FCCB /* SHLTagLabelDemoTests-Info.plist */,
+				A887FFFA197F929700C7FCCB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A887FFCB197F929700C7FCCB /* SHLTagLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8870001197F929700C7FCCB /* Build configuration list for PBXNativeTarget "SHLTagLabelDemo" */;
+			buildPhases = (
+				A887FFC8197F929700C7FCCB /* Sources */,
+				A887FFC9197F929700C7FCCB /* Frameworks */,
+				A887FFCA197F929700C7FCCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHLTagLabelDemo;
+			productName = SHLTagLabelDemo;
+			productReference = A887FFCC197F929700C7FCCB /* SHLTagLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A887FFEF197F929700C7FCCB /* SHLTagLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8870004197F929700C7FCCB /* Build configuration list for PBXNativeTarget "SHLTagLabelDemoTests" */;
+			buildPhases = (
+				A887FFEC197F929700C7FCCB /* Sources */,
+				A887FFED197F929700C7FCCB /* Frameworks */,
+				A887FFEE197F929700C7FCCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A887FFF6197F929700C7FCCB /* PBXTargetDependency */,
+			);
+			name = SHLTagLabelDemoTests;
+			productName = SHLTagLabelDemoTests;
+			productReference = A887FFF0197F929700C7FCCB /* SHLTagLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A887FFC4197F929700C7FCCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = showhilllee;
+				TargetAttributes = {
+					A887FFEF197F929700C7FCCB = {
+						TestTargetID = A887FFCB197F929700C7FCCB;
+					};
+				};
+			};
+			buildConfigurationList = A887FFC7197F929700C7FCCB /* Build configuration list for PBXProject "SHLTagLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A887FFC3197F929700C7FCCB;
+			productRefGroup = A887FFCD197F929700C7FCCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A887FFCB197F929700C7FCCB /* SHLTagLabelDemo */,
+				A887FFEF197F929700C7FCCB /* SHLTagLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A887FFCA197F929700C7FCCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A887FFE6197F929700C7FCCB /* Main_iPad.storyboard in Resources */,
+				A887FFEB197F929700C7FCCB /* Images.xcassets in Resources */,
+				A887FFE3197F929700C7FCCB /* Main_iPhone.storyboard in Resources */,
+				A887FFDA197F929700C7FCCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A887FFEE197F929700C7FCCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A887FFFC197F929700C7FCCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A887FFC8197F929700C7FCCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A887FFE9197F929700C7FCCB /* ViewController.m in Sources */,
+				A887FFE0197F929700C7FCCB /* AppDelegate.m in Sources */,
+				A887FFDC197F929700C7FCCB /* main.m in Sources */,
+				A887000A197F92DA00C7FCCB /* SHLTagLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A887FFEC197F929700C7FCCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A887FFFE197F929700C7FCCB /* SHLTagLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A887FFF6197F929700C7FCCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A887FFCB197F929700C7FCCB /* SHLTagLabelDemo */;
+			targetProxy = A887FFF5197F929700C7FCCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A887FFD8197F929700C7FCCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A887FFD9197F929700C7FCCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A887FFE1197F929700C7FCCB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A887FFE2197F929700C7FCCB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A887FFE4197F929700C7FCCB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A887FFE5197F929700C7FCCB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A887FFFA197F929700C7FCCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A887FFFB197F929700C7FCCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8870000197F929700C7FCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8870002197F929700C7FCCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHLTagLabelDemo/SHLTagLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "SHLTagLabelDemo/SHLTagLabelDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8870003197F929700C7FCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHLTagLabelDemo/SHLTagLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "SHLTagLabelDemo/SHLTagLabelDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8870005197F929700C7FCCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SHLTagLabelDemo.app/SHLTagLabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHLTagLabelDemo/SHLTagLabelDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SHLTagLabelDemoTests/SHLTagLabelDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A8870006197F929700C7FCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SHLTagLabelDemo.app/SHLTagLabelDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHLTagLabelDemo/SHLTagLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "SHLTagLabelDemoTests/SHLTagLabelDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		A887FFFF197F929700C7FCCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8870001197F929700C7FCCB /* Build configuration list for PBXNativeTarget "SHLTagLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8870002197F929700C7FCCB /* Debug */,
+				A8870003197F929700C7FCCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8870004197F929700C7FCCB /* Build configuration list for PBXNativeTarget "SHLTagLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8870005197F929700C7FCCB /* Debug */,
+				A8870006197F929700C7FCCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A887FFC7197F929700C7FCCB /* Build configuration list for PBXProject "SHLTagLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A887FFFF197F929700C7FCCB /* Debug */,
+				A8870000197F929700C7FCCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A887FFC4197F929700C7FCCB /* Project object */;
+}
