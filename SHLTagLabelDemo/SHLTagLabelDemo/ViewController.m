@@ -22,9 +22,10 @@
     
     SHLTagLabel* tagList = [[SHLTagLabel alloc] initWithFrame:CGRectMake(20.0f, 70.0f, 280.0f, 100.0f)];
     tagList.delegate = self;
-    NSArray *array = [[NSArray alloc] initWithObjects:@"0-9",@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"Other",@"All", nil];
-    [tagList setTags:array];
     [self.view addSubview:tagList];
+    
+    NSArray *array = [[NSArray alloc] initWithObjects:@"0-9",@"A", @"B", @"C", @"D", @"E", @"F", @"G", @"H", @"I", @"J", @"Other", @"All", @"Music", @"Something maybe need to show a long long title", nil];
+    [tagList setTags:array];
 }
 
 - (void)tapedOnLabelTag:(NSInteger)labTag labelText:(NSString *)text {

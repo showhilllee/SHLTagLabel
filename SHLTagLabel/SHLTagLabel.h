@@ -14,19 +14,16 @@
 
 @end
 
-@interface SHLTagLabel : UIView {
-    UIView *view;
-    NSArray *textArray;
-    CGSize sizeFit;
-    UIColor *lblBackgroundColor;
-}
+@interface SHLTagLabel : UIView 
 
 @property (nonatomic) float totalHeight;//总的高度
-@property (nonatomic, strong) UIView *view;
-@property (nonatomic, strong) NSArray *textArray;
+@property (nonatomic, strong) UIView* view;
+@property (nonatomic, strong) NSArray* textArray;
+@property (nonatomic, strong) UIColor* textColor;
+@property (nonatomic, setter=setLabelBackgroundColor:) UIColor* backbroundColor;
 @property (nonatomic, unsafe_unretained) id <SHLTagLabelDelegate> delegate;
 
-- (void)setLabelBackgroundColor:(UIColor *)color;
+- (instancetype)initWithFrame:(CGRect)frame WithTextColor:(UIColor*)color;
 - (void)setTags:(NSArray *)array;
 - (void)display;
 - (CGSize)fittedSize;

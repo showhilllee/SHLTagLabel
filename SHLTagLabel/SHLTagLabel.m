@@ -22,16 +22,35 @@
 #define BORDER_COLOR [UIColor lightGrayColor].CGColor//圆圈的颜色
 #define BORDER_WIDTH 0.8f//圆圈线条的粗细
 
+@interface SHLTagLabel () {
+    UIView *view;
+    NSArray *textArray;
+    CGSize sizeFit;
+    UILabel* shlTabLabel;
+}
+
+@end
 
 @implementation SHLTagLabel
 
 @synthesize totalHeight, view, textArray;
 @synthesize delegate;
+@synthesize textColor;
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
+        [self addSubview:view];
+    }
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame WithTextColor:(UIColor*)color
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        textColor = color;
         [self addSubview:view];
     }
     return self;
@@ -46,7 +65,7 @@
 
 - (void)setLabelBackgroundColor:(UIColor *)color
 {
-    lblBackgroundColor = color;
+    self.backbroundColor = color;
     [self display];
 }
 
@@ -87,12 +106,10 @@
         previousFrame = label.frame;
         gotPreviousFrame = YES;
         [label setFont:[UIFont systemFontOfSize:FONT_SIZE]];
-        if (!lblBackgroundColor) {
-            [label setBackgroundColor:BACKGROUND_COLOR];
-        } else {
-            [label setBackgroundColor:lblBackgroundColor];
-        }
-        [label setTextColor:TEXT_COLOR];
+        
+        [label setBackgroundColor:self.backbroundColor ? self.backbroundColor : BACKGROUND_COLOR];
+        [label setTextColor:textColor ? textColor : TEXT_COLOR];
+        
         [label setText:text];
         [label setTextAlignment:NSTextAlignmentCenter];
         [label setShadowColor:TEXT_SHADOW_COLOR];
@@ -101,12 +118,16 @@
         [label.layer setCornerRadius:CORNER_RADIUS];
         [label.layer setBorderColor:BORDER_COLOR];
         [label.layer setBorderWidth: BORDER_WIDTH];
+        label.numberOfLines = 0;
+        label.lineBreakMode = NSLineBreakByCharWrapping;
         [self addSubview:label];
         
         label.tag = txtNum;
         label.userInteractionEnabled = YES;
         UITapGestureRecognizer* tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelTap:)];
         [label addGestureRecognizer:tap];
+        
+        shlTabLabel = label;
     }
     sizeFit = CGSizeMake(self.frame.size.width, totalHeight + 1.0f);
     
